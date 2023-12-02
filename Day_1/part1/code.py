@@ -1,3 +1,7 @@
+''' ============= ADVENT OF CODE 2023 =============
+| DAY 1 - Part 1
+| By @Diego100451091
+'''
 
 def readFile (path):
     file = open(path, "r")
@@ -25,7 +29,7 @@ def getCalibrationValue(word):
 
 
 def main():
-    lines = readFile("input.txt")
+    lines = readFile("../input.txt")
     calibration_value = 0
     for line in lines:
         calibration_value += getCalibrationValue(line)
