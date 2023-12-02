@@ -37,5 +37,3 @@ inputDict = getGamesDict(input)
 answer = 0
 Object.keys(inputDict).map((turn) => answer += parseInt(getPower(inputDict[turn])))
 console.log(answer)
-
-
